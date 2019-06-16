@@ -8,7 +8,6 @@ import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.contrib.java.lang.system.ExpectedSystemExit;
 
 import com.virtusa.test.Application;
 import com.virtusa.test.Paragraph;
@@ -34,8 +33,6 @@ public class AppTest {
         app = null;
     }
     
-    @Rule
-    public final ExpectedSystemExit exit = ExpectedSystemExit.none();
 
     @Test
     public void testMain() {
